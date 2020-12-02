@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="MyCenterTwo">
+        
+    <div class="MyCentr">
+       
+            
+        
+    <body class="text-center">
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    <form class="MyForm" name='myForm'>
+        &#160&#160<p>Столица Канада</p>
+        <div class='Vibor'><input  type="radio" name="q1" value="a"><spanc>Оттава</span></div>
+            <div class='Vibor'><input  type="radio" name="q1" value="b"><span>Доха</span><br></div>
+                <div class='Vibor'><input  type="radio" name="q1" value="c"><span>Бишкек</span></div>
+        
+                &#160&#160<p>Столица Китай</p>
+        <div class='Vibor'><input  type="radio" name="q2" value="a"><span>Киншаса</span><br></div>
+        <div class='Vibor'><input   type="radio" name="q2" value="b"><span>Пекин</span><br></div>
+        <div class='Vibor'><input  type="radio" name="q2" value="c"><span>Вьентьян</span></div>
+        
+        &#160&#160<p>Столица Куба</p>
+        <div class='Vibor'><input  type="radio" name="q3" value="a"><span>Гавана</span><br></div>
+        <div class='Vibor'><input  type="radio" name="q3" value="b"><span>Лилонгве</span><br></div>
+        <div class='Vibor'><input type="radio" name="q3" value="c"><span>Бамако</span></div>
+        
+        <br>
+        &#160&#160<input class="button24" type="button" value="Проверить" onclick="check()"><br><br>
+
+    </form>
+</div>
+</div>
+ <script>
+     function check(){
+    const q1=document.myForm.q1.value;
+    const q2=document.myForm.q2.value;
+    const q3=document.myForm.q3.value;
+    var count = 0;
+    if (q1 == 'a'){
+        count++
+    }
+    if (q2 == 'b'){
+        count++
+    }
+    if (q3 == 'a'){
+        count++
+    }
+    
+    if (count == 3){
+        document.write("<div class='MyCenterTwo'> <div class='MyCentr'> <div class='topnav'> <a class='active' href='#home'>Home</a> <a href='#news'>News</a> <a href='#contact'>Contact</a> <a href='#about'>About</a>  </div> <div class='count'>You win. Score:"+ count + "<br> <br><br><br><br><br><br><br><div    ><style> .MyCenterTwo{ padding-left: 10%; } .MyCentr{ width: 80%; height: 80%; background-color: white; padding-right: 10%; } center{ padding-left: 10%; } body{ background: url(unnamed.jpg); } .topnav {    overflow: hidden;   background-color: rgb(51, 54, 54);   width: 100%;   padding-right: 12.5%; } .topnav a {   float: left;   color: #f2f2f2;   text-align: center;   padding: 14px 16px;   text-decoration: none;   font-size: 17px; } .topnav a:hover {   background-color: #ddd;   color: black; } .topnav a.active {   background-color: #8a80e0;   color: white; } .count:hover{color:#8a80e0;font-size: 21px; } a.Back:hover { background: linear-gradient(#ddd, #ddd) #ddd; } a.Back:active { background: linear-gradient(#ddd, #ddd) #ddd; } a.Back { display: inline-block; color: white; text-decoration: none; padding: .5em 2em; outline: none; border-width: 2px 0; border-style: solid none; border-color: #8a80e0 #000  #8a80e0; border-radius: 6px; background: linear-gradient( #8a80e0,  #8a80e0)  rgb(167, 95, 235); transition: 0.2s; }</style>  <a class='Back' href='file:///C:/Users/Andrey/Desktop/%D0%B2%D1%81%D0%B5/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/RYI2/inex.html'>Back</a></div>" )
+    } else {
+document.write("<div class='MyCenterTwo'> <div class='MyCentr'> <div class='topnav'> <a class='active' href='#home'>Home</a> <a href='#news'>News</a> <a href='#contact'>Contact</a> <a href='#about'>About</a>  </div> <div class='count'>You Luse. Score:</div>"+ count + "<br> <br><br><br><br><br><br><br><div    ><style> .MyCenterTwo{ padding-left: 10%; } .MyCentr{ width: 80%; height: 80%; background-color: white; padding-right: 10%; } center{ padding-left: 10%; } body{ background: url(unnamed.jpg); } .topnav {    overflow: hidden;   background-color: rgb(51, 54, 54);   width: 100%;   padding-right: 12.5%; } .topnav a {   float: left;   color: #f2f2f2;   text-align: center;   padding: 14px 16px;   text-decoration: none;   font-size: 17px; } .topnav a:hover {   background-color: #ddd;   color: black; } .topnav a.active {   background-color: #8a80e0;   color: white; } .count:hover{color:#8a80e0;font-size: 21px; } a.Back:hover { background: linear-gradient(#ddd, #ddd) #ddd; } a.Back:active { background: linear-gradient(#ddd, #ddd) #ddd; } a.Back { display: inline-block; color: white; text-decoration: none; padding: .5em 2em; outline: none; border-width: 2px 0; border-style: solid none; border-color: #8a80e0 #000  #8a80e0; border-radius: 6px; background: linear-gradient( #8a80e0,  #8a80e0)  rgb(167, 95, 235); transition: 0.2s; }</style>  <a class='Back' href='file:///C:/Users/Andrey/Desktop/%D0%B2%D1%81%D0%B5/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/RYI2/inex.html'>Back</a></div>")
+    }
+}
+
+ </script>
+ 
+    <script type="text/javascript" src="js.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>

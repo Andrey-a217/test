@@ -1,0 +1,83 @@
+.Vibor :hover{
+color:#8a80e0;
+font-size: 21px;
+
+}
+.Vibor{
+  padding: 10px 0 11px 29px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(51, 54, 54);
+    width: 100%;
+    padding-right: 12.5%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #8a80e0;
+    color: white;
+  }
+
+ 
+  button{
+      font-size:18px;
+  }
+  #ot {
+      color:blue;
+  }
+  #name_test{
+  padding-top: 40px;
+    padding-bottom: 40px;
+}
+.centr{
+padding-left: 30%;
+padding-right: 30%;
+}
+input.button24 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #8a80e0 #000  #8a80e0;
+    border-radius: 6px;
+    background: linear-gradient( #8a80e0,  #8a80e0)  rgb(167, 95, 235);
+    transition: 0.2s;
+  } 
+  input.button24:hover { background: linear-gradient(#ddd, #ddd) #ddd; }
+  input.button24:active { background: linear-gradient(#ddd, #ddd) #ddd; }
+
+
+.MyCentr{
+  
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  padding-right: 10%;
+}
+body{
+  background: url(unnamed.jpg);
+}
+.MyCenterTwo{
+  padding-left: 10%;
+}
+.MyForm{
+ padding-left: 5%;
+}
+
